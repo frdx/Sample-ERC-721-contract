@@ -6,7 +6,7 @@ This is a sample contract that I used to deploy my Solar collection with. It's p
 
 ### **Node version**
 
-Either make sure you're running a version of node compliant with the engines requirement in package.json, or install Node Version Manager nvm and run nvm use to use the correct version of node.
+Either make sure you're running a version of node compliant with the engines requirement in package.json, or install Node Version Manager `nvm` and run `nvm use` to use the correct version of node.
 
 ## **Set-up**
 
@@ -47,7 +47,7 @@ yarn truffle deploy --network live
 
 ### **Contract verification**
 
-Run the below for Rinkeby with your contract name:
+Run the below for Rinkeby verification with your contract name:
 
 ```
 truffle run verify <contract_name> --network rinkeby
